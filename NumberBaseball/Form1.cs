@@ -77,7 +77,7 @@ namespace NumberBaseball
                 else
                 {
                     var ballnumber = numbersInts.Where(w => w == insertInts[i]).ToArray();
-                    if(ballnumber != null)
+                    if(ballnumber.Length != 0)
                     {
                         ball++;
                     }
